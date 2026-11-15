@@ -1,0 +1,8 @@
+{
+  "8": "eclipse-temurin:8-jdk-jammy@sha256:2cd38a20915ea95905efc60e31daa36236b0b13f8b4b5ab888e12eeaf703753d",
+  "11": "eclipse-temurin:11-jdk-noble@sha256:df71d5e36d389fa00f16453c0005e8dad19eb4d7e3e4f7b156fcea61b9b46430",
+  "17": "eclipse-temurin:17-jdk-noble@sha256:1bedb04434bd275ef072355e9caec2a22be5240fbe82ad51a59323f2bbcab4a6",
+  "21": "eclipse-temurin:21-jdk-noble@sha256:06c1f157dacf6b68198bd9a4186dd4c34ef24e65d7bbbe2a0cf8e62571ad38c9",
+  "25": "eclipse-temurin:25-jdk-noble@sha256:80f67fb3d6f76e2d817d98a4cc2a9cf05f054d4e6adc5e2144bde671d722e63f",
+  "27": "eclipse-temurin:27-jdk-resolute@sha256:653c788ead947fce2b3452b434f25f69adf9b60c9f41e4639b3592caa719f683"
+}

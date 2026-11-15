@@ -1,0 +1,35 @@
+{
+  "grupo": "br.com.mailcore",
+  "pacote": "mailcore-java",
+  "versao": "0.1.0-alpha.1",
+  "artefatos": {
+    "jar": {
+      "arquivo": "repo/br/com/mailcore/mailcore-java/0.1.0-alpha.1/mailcore-java-0.1.0-alpha.1.jar",
+      "sha256": "1b00fd8e443e94b197d8ae539af733c3ac024b76c4c575abc03f2809f2afd0d2",
+      "bytes": 97433
+    },
+    "fontes": {
+      "arquivo": "repo/br/com/mailcore/mailcore-java/0.1.0-alpha.1/mailcore-java-0.1.0-alpha.1-sources.jar",
+      "sha256": "8fd697a4440ce1addaa77840ef715ef9a10958e5dd255fcd945f8d59efad1cca",
+      "bytes": 51047
+    },
+    "javadoc": {
+      "arquivo": "repo/br/com/mailcore/mailcore-java/0.1.0-alpha.1/mailcore-java-0.1.0-alpha.1-javadoc.jar",
+      "sha256": "541113ea2326818d8e0ba31e02bb3163926b2ac5180fdc6b1e3a61fddc592c91",
+      "bytes": 372170
+    },
+    "pom": {
+      "arquivo": "repo/br/com/mailcore/mailcore-java/0.1.0-alpha.1/mailcore-java-0.1.0-alpha.1.pom",
+      "sha256": "db2bd5ba26f52770d5d75a19b187a17230a28b22bc06fa3c749a966a0c0bb2e0",
+      "bytes": 4243
+    }
+  },
+  "classes_sdk": 65,
+  "bytecode_major": 52,
+  "licenca_sdk_nos_tres_jars": true,
+  "dependencias_fora_jar_sdk": true,
+  "publicado": false,
+  "data": "2026-11-14",
+  "resultado": "aprovado",
+  "jar_identico_nas_seis_imagens": true
+}

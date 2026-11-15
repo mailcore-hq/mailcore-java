@@ -1,0 +1,42 @@
+{
+  "data_utc": "2026-11-14T18:18:09.331551+00:00",
+  "resultado": "falhou",
+  "ambiente": "api_postgres_tls_exclusivos_sem_worker_sem_portas",
+  "instalacao_host": false,
+  "rede_interna": true,
+  "portas_publicadas": false,
+  "worker_executado": false,
+  "smtp_executado": false,
+  "deploy_executado": false,
+  "tls_api_verificado": false,
+  "tls_postgres": "nao_verificado",
+  "cenarios": [],
+  "etapa": "iniciar_postgres",
+  "imagens": {
+    "cliente": "sha256:83b807bbb55d5dfb417f18e7a2ff43e4f57c648464bc09edfae849e6fa434713",
+    "api_runtime": "sha256:158e95e9b87f2a126c038e6931b2f956fe6120f3566fd047a29250bd7783ff33",
+    "compilador": "sha256:8fa55b2f3ddf97471ab6a767bfa3f37e6bad0986ba823e75fea57e2a2a5c3073",
+    "postgres": "sha256:f1ea2a1a4fb7b68d4836be1fdcb8a6466a89b072158bf9d97663600538c294c5"
+  },
+  "backend_revisao": "c440e601865c06cb692a2499b2c813368378c64c",
+  "backend_fontes_sha256": "d31c825268a64c858276827f47d27e506f543421327f487d7165e511359e248f",
+  "backend_fontes_alterados": false,
+  "api_compilada_neste_ensaio": true,
+  "api_binario_sha256": "3cd977ab90dbfcc0067b7d0b85d120ae9132f4e873cc223298f901fc1dbd35bf",
+  "falha": "Ensaio interrompido; recursos exclusivos serão removidos.",
+  "limpeza_concluida": true,
+  "interrupcao_injetada": "SIGTERM",
+  "interrupcao_apos_postgres": true,
+  "recursos_existentes_antes": {
+    "containers_postgres": 1,
+    "containers_guardiao": 1,
+    "redes_internas": 1,
+    "volumes_tmpfs": 1
+  },
+  "recursos_restantes_apos": {
+    "containers": 0,
+    "redes": 0,
+    "volumes": 0
+  },
+  "ausencia_confirmada_no_daemon": true
+}

@@ -1,0 +1,55 @@
+{
+  "data": "2026-11-14",
+  "resultado": "aprovado",
+  "total_execucoes_testes": 1128,
+  "perfis": [
+    {
+      "perfil": "8",
+      "imagem_base": "eclipse-temurin:8-jdk-jammy@sha256:2cd38a20915ea95905efc60e31daa36236b0b13f8b4b5ab888e12eeaf703753d",
+      "java": "openjdk version \"1.8.0_512\"",
+      "testes": 188,
+      "falhas": 0,
+      "rede": "none"
+    },
+    {
+      "perfil": "11",
+      "imagem_base": "eclipse-temurin:11-jdk-noble@sha256:df71d5e36d389fa00f16453c0005e8dad19eb4d7e3e4f7b156fcea61b9b46430",
+      "java": "openjdk version \"11.0.33\" 2026-10-20",
+      "testes": 188,
+      "falhas": 0,
+      "rede": "none"
+    },
+    {
+      "perfil": "17",
+      "imagem_base": "eclipse-temurin:17-jdk-noble@sha256:1bedb04434bd275ef072355e9caec2a22be5240fbe82ad51a59323f2bbcab4a6",
+      "java": "openjdk version \"17.0.21\" 2026-10-20",
+      "testes": 188,
+      "falhas": 0,
+      "rede": "none"
+    },
+    {
+      "perfil": "21",
+      "imagem_base": "eclipse-temurin:21-jdk-noble@sha256:06c1f157dacf6b68198bd9a4186dd4c34ef24e65d7bbbe2a0cf8e62571ad38c9",
+      "java": "openjdk version \"21.0.13\" 2026-10-20 LTS",
+      "testes": 188,
+      "falhas": 0,
+      "rede": "none"
+    },
+    {
+      "perfil": "25",
+      "imagem_base": "eclipse-temurin:25-jdk-noble@sha256:80f67fb3d6f76e2d817d98a4cc2a9cf05f054d4e6adc5e2144bde671d722e63f",
+      "java": "openjdk version \"25.0.5\" 2026-10-20 LTS",
+      "testes": 188,
+      "falhas": 0,
+      "rede": "none"
+    },
+    {
+      "perfil": "27",
+      "imagem_base": "eclipse-temurin:27-jdk-resolute@sha256:653c788ead947fce2b3452b434f25f69adf9b60c9f41e4639b3592caa719f683",
+      "java": "openjdk version \"27.0.1.0.2\" 2026-10-21",
+      "testes": 188,
+      "falhas": 0,
+      "rede": "none"
+    }
+  ]
+}
