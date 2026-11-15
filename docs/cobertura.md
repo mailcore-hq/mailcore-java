@@ -1,6 +1,6 @@
 # Cobertura do SDK Java
 
-A versão `0.1.0-alpha.1` oferece **16 recursos principais, 30 classes de recursos e 151 operações HTTP síncronas**. Sobrecargas com opções e conveniências de argumentos opcionais não representam operações adicionais. As coordenadas `br.com.mailcore:mailcore-java` ainda não foram publicadas no Maven Central.
+A versão `0.1.0-alpha.1` oferece **16 recursos principais, 30 classes de recursos e 151 operações HTTP síncronas**. Sobrecargas com opções e conveniências de argumentos opcionais não representam operações adicionais. As coordenadas do pacote são `br.com.mailcore:mailcore-java`.
 
 As assinaturas usam nomes Java em camelCase; o corpo mantém os campos em português do contrato HTTP. Identificadores são codificados como um único segmento de URI, sem perder o prefixo da API.
 

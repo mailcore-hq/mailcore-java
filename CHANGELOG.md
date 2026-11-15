@@ -7,4 +7,4 @@
 - Configuração imutável, pool compartilhado, opções por chamada, idempotência, cancelamento e cliente OkHttp opcional.
 - Downloads em fluxo, limites de leitura, bytes originais e JSON de precisão arbitrária.
 - Autenticação HMAC de webhooks com os bytes originais.
-- Distribuição local com JAR, fontes, Javadoc e POM. Publicação reservada para etapa posterior.
+- Distribuição com JAR, fontes, Javadoc e POM.

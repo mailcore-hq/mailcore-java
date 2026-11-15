@@ -86,4 +86,4 @@ Um [ensaio separado de interrupção intencional](integracao-api-interrupcao.jso
 
 Os dez grupos cobrem autenticação, idempotência, revisões, envios compostos, modelos, contatos, exportações/importações, recebimento, caixas e webhooks. Incluem quatro fluxos de download e oito leituras concorrentes com uma instância compartilhada. Isso verifica aceitação e persistência na API; não mede entrega SMTP nem capacidade de produção.
 
-O SDK continua em versão alpha local. Não há publicação ou deploy nesses comandos.
+O SDK está em versão alpha. Os comandos descritos executam as verificações locais de desenvolvimento e distribuição.
