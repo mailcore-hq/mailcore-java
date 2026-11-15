@@ -1,6 +1,6 @@
 # SDK Mailcore para Java
 
-[Código-fonte](https://github.com/mailcore-hq/mailcore-java) · [Problemas e sugestões](https://github.com/mailcore-hq/mailcore-java/issues)
+[Código-fonte](https://github.com/mailcore-hq/mailcore-java) · [Maven Central](https://central.sonatype.com/artifact/br.com.mailcore/mailcore-java/0.1.0-alpha.1) · [Problemas e sugestões](https://github.com/mailcore-hq/mailcore-java/issues)
 
 Cliente síncrono da API Mailcore para **Java 8 ou superior**, com 151 operações, recursos modulares, respostas em bytes e JSON, downloads em fluxo e verificação de webhooks. Compartilhe uma instância de `Cliente` entre as threads da aplicação para reutilizar o pool HTTP.
 
@@ -10,7 +10,7 @@ Versão **`0.1.0-alpha.1`**, coordenadas **`br.com.mailcore:mailcore-java`**. Co
 
 ## Instalação
 
-Para versões disponíveis no Maven Central, adicione a dependência ao `pom.xml` da aplicação consumidora:
+A versão `0.1.0-alpha.1` está disponível no [Maven Central](https://central.sonatype.com/artifact/br.com.mailcore/mailcore-java/0.1.0-alpha.1). Adicione a dependência ao `pom.xml` da aplicação consumidora:
 
 ```xml
 <dependency>
@@ -19,6 +19,8 @@ Para versões disponíveis no Maven Central, adicione a dependência ao `pom.xml
   <version>0.1.0-alpha.1</version>
 </dependency>
 ```
+
+A instalação pública foi validada com cache vazio, Maven 3.9.16 e Java 17.0.21, incluindo as 151 operações com transporte HTTP sintético. O Maven utiliza o Central padrão; não é necessário adicionar um repositório ao POM. Veja o [registro da publicação](docs/publicacao.md).
 
 O JAR principal não inclui suas dependências; Maven resolve o transporte e o suporte JSON. `target/` também recebe os JARs de fontes e Javadoc. Copiar apenas o JAR principal para um classpath sem suas dependências não equivale à instalação Maven.
 

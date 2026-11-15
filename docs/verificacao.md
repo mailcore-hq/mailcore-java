@@ -56,6 +56,16 @@ Repita com as imagens e perfis 8, 11, 21, 25 e 27. O consumidor resolve o POM po
 
 A [instalação local foi aprovada nos seis perfis](instalacao-local.json), usando o mesmo JAR e o mesmo inventário de dependências. O exemplo `EnviarEmail.java` foi compilado separadamente em cada perfil, sem executar envios.
 
+## Instalação pública pelo Maven Central
+
+Em 15/11/2026, um consumidor externo instalou `br.com.mailcore:mailcore-java:0.1.0-alpha.1` com Maven 3.9.16, Java 17.0.21 e cache inicialmente vazio. O POM não declarou repositórios adicionais; o Maven resolveu o SDK pelo Central padrão, com HTTPS e verificação estrita de checksums, sem credenciais ou dependências locais do checkout.
+
+JAR, POM, fontes, Javadoc e as quatro assinaturas recebidas do registro foram comparados byte a byte com o bundle publicado. As assinaturas GPG foram verificadas em chaveiro temporário, sem rede ou chave privada. Os 48 fontes Java corresponderam ao commit publicado; as 65 classes usam bytecode 52.
+
+O [consumidor instalado](../testes/consumidor/ConsumidorInstalado.java) passou com 30 recursos, 151 operações, 155 requisições HTTP sintéticas e três callbacks. Também conferiu pedidos tipados, precisão JSON, User-Agent, assinaturas de webhook e cancelamento. O exemplo `EnviarEmail.java` foi compilado para Java 8 sem executar um envio. Esse consumo público é independente da matriz offline descrita acima.
+
+O [registro da publicação](publicacao.md) identifica a tag, o POM público, os checksums e os limites da evidência. Containers, consumidor, caches e arquivos temporários foram removidos após a verificação.
+
 ## API isolada
 
 `testes/controlar_api.py` usa um checkout do backend, a imagem local de runtime da API e o compilador Rust fixado no próprio controlador. Ele cria rede interna, PostgreSQL e API exclusivos, com TLS e nomes de serviço Docker. Não utiliza worker, SMTP, portas publicadas ou banco de produção.
