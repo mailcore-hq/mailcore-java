@@ -6,17 +6,11 @@ Cliente síncrono da API Mailcore para **Java 8 ou superior**, com 151 operaçõ
 
 Aplicações consumidoras usam Java e as dependências Maven. Docker serve como ambiente de desenvolvimento e verificação desta biblioteca.
 
-Versão **`0.1.0-alpha.1`**, coordenadas **`br.com.mailcore:mailcore-java`**. Esta versão ainda não foi publicada no Maven Central. Consulte o [guia de uso](docs/uso.md) e a [cobertura da API](docs/cobertura.md).
+Versão **`0.1.0-alpha.1`**, coordenadas **`br.com.mailcore:mailcore-java`**. Consulte o [guia de uso](docs/uso.md) e a [cobertura da API](docs/cobertura.md).
 
-## Instalação local
+## Instalação
 
-No ambiente de desenvolvimento da biblioteca, com Maven, JDK 17, Python 3 e OpenSSL para os testes:
-
-```bash
-mvn install
-```
-
-O build produz bytecode Java 8 e instala o artefato no repositório Maven local. No projeto consumidor:
+Para versões disponíveis no Maven Central, adicione a dependência ao `pom.xml` da aplicação consumidora:
 
 ```xml
 <dependency>
@@ -27,6 +21,16 @@ O build produz bytecode Java 8 e instala o artefato no repositório Maven local.
 ```
 
 O JAR principal não inclui suas dependências; Maven resolve o transporte e o suporte JSON. `target/` também recebe os JARs de fontes e Javadoc. Copiar apenas o JAR principal para um classpath sem suas dependências não equivale à instalação Maven.
+
+## Desenvolvimento e instalação local
+
+No ambiente de desenvolvimento da biblioteca, com Maven, JDK 17, Python 3 e OpenSSL para os testes:
+
+```sh
+mvn install
+```
+
+O build produz bytecode Java 8 e instala o artefato no repositório Maven local para uso durante o desenvolvimento.
 
 Para construir e executar os testes com as ferramentas dentro do Docker:
 
